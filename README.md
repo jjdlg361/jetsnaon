@@ -78,13 +78,13 @@ pip3 install pyrealsense2
 <h3>Step 7:</h3>
 <p>Download the YOLOv7 repository by Ultralytics LLC. Run the following commands:</p>
 <pre>
-git clone https://github.com/ultralytics/yolov7.git
+git clone https://github.com/WongKinYiu/yolov7.git
 cd yolov7
 </pre>
 <h3>Step 8:</h3>
 <p>Download the weights for YOLOv7. Run the following command:</p>
 <pre>
-wget https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov7.pt
+wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
 </pre>
 <h3>Step 9:</h3>
 <p>Connect the Realsense D435 camera to the Jetson Nano via USB.</p>
