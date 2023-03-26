@@ -14,6 +14,22 @@ The steps taken are taken in a specific way of my choosing, however in some inst
 
 4.Start NVIDA Jetson Naon. 
 
+5.Update and upgrade the system packages with apt-get.
+
+6.Install PyTorch, OpenCV, and other required packages using pip.
+
+7.Download the YOLOv7 repository by Ultralytics LLC.
+
+8.Download the weights for YOLOv7.
+
+9.Connect the Realsense D435 camera to the Jetson Nano via USB.
+
+10.Run the object detection using YOLOv7 and Realsense D435 camera by executing a command in the terminal.
+
+11.The output video stream will display the detected objects along with the corresponding bounding boxes, labels, and orientation angles.
+
+12.Done
+
  <h3>Step 1:</h3> 
 
 Use your OS disk manager to wipe the exiscting data and format it respectively. 
@@ -79,7 +95,7 @@ python3 detect.py --source 0 --weights yolov7.pt --conf-thres 0.4 --device 'cuda
 </pre>
 <p>To stop the detection, press the q key.</p>
 <h3>Step 11:</h3>
-<p>The output video stream will display the detected objects along with the corresponding bounding boxes, labels, and orientation angles. Additionally, the data will be saved in a .txt file, containing the object coordinates, distance, and orientation data.</p>
+<p>The output video stream will display the detected objects along with the corresponding bounding boxes, labels, and orientation angles.</p>
 <h3>Step 12:</h3>
 <p>Congratulations! You have successfully set up.
 
