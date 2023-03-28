@@ -43,7 +43,7 @@ As seen below will be formatting it for use in all systems.
 
 In our case we will be using Ubuntu 20.04 for Jetson Nano. 
 
-May be accessed at: https://github.com/Discombobulated88/Xubuntu-20.04-L4T-32.3.1/releases/download/v1.0/Xubuntu-20.04-l4t-r32.3.1.tar.tbz2 
+May be accessed at: https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image 
 
 Please download and extract the image file. 
 
